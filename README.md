@@ -5,10 +5,11 @@ This repository provides [WordPress Cluster](http://www.wordpress.org/) JPS-base
 **WordPress Cluster** is highly available and scalable clustered solution for WordPress, the extremely popular open source CMS and blogging tool.
 
 **Engine**: PHP 5.4.0
+
 **Environment topology**: (type and number of nodes, replication/synchronization if configured)
-- nginx HTTP Load Balancer with [external IP](https://docs.jelastic.com/public-ipv4) address, 2 nodes, scaling limit up to 16 flexible cloudlets
-- nginx HTTP server with PHP support, 2 nodes, scaling limit up to 32 flexible cloudlets
-- MySQL 5 database, 2 nodes, scaling limit up to 16 flexible cloudlets
+- NGINX Load Balancer with [external IP](https://docs.jelastic.com/public-ipv4) address, 2 nodes, 2 reserved cloudlets, scaling limit up to 16 cloudlets
+- NGINX-PHP server, 2 nodes, 2 reserved cloudlets, scaling limit up to 32 cloudlets
+- MySQL 5 database, 2 nodes, 2 reserved cloudlets, scaling limit up to 16 cloudlets
 
 ### What it can be used for? (i.e. usecases + description of options to define if are any)
 This package is designed to ensure the load tracking and distribution, as well as automatic adjusting the amount of allocated resources according to it.<br />
