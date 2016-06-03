@@ -11,8 +11,8 @@ This repository provides [WordPress Cluster](http://www.wordpress.org/) JPS-base
 Layer                |   Server  | Number of nodes   |  Cloudlets (reserved/flexible)  | Specifics
 -------------------- | --------- | :---------------: | :-----------------------------: | ---------
 Load Balancing       |  NGINX LB |       2           |           2 / 16                | with [external IP](https://docs.jelastic.com/public-ipv4) address 
-App Server           | NGINX-PHP |       2           |           2 / 32                |
-SQL database         |    MySQL  |       2           |           2 / 16                |
+App Server           | NGINX-PHP |       2           |           2 / 32                | -
+SQL database         |    MySQL  |       2           |           2 / 16                | -
 
 ### What it can be used for?
 This package is designed to ensure the load tracking and distribution, as well as automatic adjusting the amount of allocated resources according to it.<br />
