@@ -7,9 +7,12 @@ This repository provides [WordPress Cluster](http://www.wordpress.org/) JPS-base
 **Engine**: PHP 5.4.0
 
 **Environment topology**:
-- NGINX Load Balancer with [external IP](https://docs.jelastic.com/public-ipv4) address, 2 nodes, 2 reserved cloudlets, scaling limit up to 16 cloudlets
-- NGINX-PHP server, 2 nodes, 2 reserved cloudlets, scaling limit up to 32 cloudlets
-- MySQL 5 database, 2 nodes, 2 reserved cloudlets, scaling limit up to 16 cloudlets
+
+Layer                | Image | Number of nodes   |  Cloudlets (reserved/flexible)  | Specifics
+-------------------- | ----- | :---------------: | :-----------------------------: | ---------
+NGINX Load Balancer  |       |       2           |           2 / 16                | with [external IP](https://docs.jelastic.com/public-ipv4) address 
+NGINX-PHP server     |       |       2           |           2 / 32                |
+MySQL database       |       |       2           |           2 / 16                |
 
 ### What it can be used for?
 This package is designed to ensure the load tracking and distribution, as well as automatic adjusting the amount of allocated resources according to it.<br />
