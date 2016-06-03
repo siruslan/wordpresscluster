@@ -6,12 +6,12 @@ This repository provides [WordPress Cluster](http://www.wordpress.org/) JPS-base
 
 **Engine**: PHP 5.4.0
 
-**Environment topology**: (type and number of nodes, replication/synchronization if configured)
+**Environment topology**:
 - NGINX Load Balancer with [external IP](https://docs.jelastic.com/public-ipv4) address, 2 nodes, 2 reserved cloudlets, scaling limit up to 16 cloudlets
 - NGINX-PHP server, 2 nodes, 2 reserved cloudlets, scaling limit up to 32 cloudlets
 - MySQL 5 database, 2 nodes, 2 reserved cloudlets, scaling limit up to 16 cloudlets
 
-### What it can be used for? (i.e. usecases + description of options to define if are any)
+### What it can be used for?
 This package is designed to ensure the load tracking and distribution, as well as automatic adjusting the amount of allocated resources according to it.<br />
 Is web software you can use to create a beautiful website, blog, or app. We like to say that WordPress is both free and priceless at the same time.
 WordPress started as just a blogging system, but has evolved to be used as full content management system and so much more through the thousands of plugins and widgets and themes, WordPress is limited only by your imagination. (And tech chops.)<br />
