@@ -1,4 +1,4 @@
-# Jelastic WordPress Cluster Installation Package 
+## WordPress Cluster
 
 This repository provides [WordPress Cluster](http://www.wordpress.org/) JPS-based installation package for Jelastic Platform.
 
@@ -6,7 +6,9 @@ This repository provides [WordPress Cluster](http://www.wordpress.org/) JPS-base
 
 **Engine**: PHP 5.4.0
 
-**Environment topology**:
+### Environment Topology
+
+![Wordpress Cluster Topology](https://docs.google.com/drawings/d/11pvt6b_5t8Vscqruzl3KRhp8u883TKEwUFio8UrDDGk/pub?w=269&h=383)
 
 Layer                |   Server  | Number of nodes   |  Cloudlets (reserved/flexible)  |  Specifics
 -------------------- | --------- | :---------------: | :-----------------------------: | :---------:
